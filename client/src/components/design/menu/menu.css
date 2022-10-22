@@ -1,0 +1,87 @@
+
+#contentlogo{
+    width: 40%;
+    height: 60%;
+}
+
+#banner{
+ 
+    /* background: url( 'http://www.leparisien.fr/resizer/OHgkvKFl5Mm_hjOsnkhgPnQb6JU=/932x582/arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/NNRFOUDC2KR3NWBCMVGTYNM2SY.jpg' ) no-repeat center top; */
+    /* background-size: cover;
+    min-height: 130px;
+    margin-top: 25px; */
+}
+.bg-color{
+    background-color: #f9834c;
+    min-height: 500px;
+}
+#banner h2{
+    font-family: 'roboto', sans-serif;
+    font-size: 45px;
+    color: #f1a761;
+    text-align: center;
+}
+#banner p{
+    font-family: 'verdana', sans-serif;
+    color: #fcfcfc;
+    font-size: 34px;
+    text-align: center;
+}
+
+
+.section-padding{
+    padding: 60px 0px;
+}
+.logo-name{
+    font-family: 'roboto', sans-serif;
+    font-size: 65px;
+    margin-top: 140px;
+    color: #d05c62;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+
+
+.demo-wrap {
+    position: relative;
+  }
+  .demo-wrap:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    /* background-image: url('http://www.leparisien.fr/resizer/OHgkvKFl5Mm_hjOsnkhgPnQb6JU=/932x582/arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/NNRFOUDC2KR3NWBCMVGTYNM2SY.jpg'); */
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+  }
+  .demo-content {
+    position: relative;
+  }
+

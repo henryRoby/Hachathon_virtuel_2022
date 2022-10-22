@@ -1,0 +1,360 @@
+
+#contenu{
+
+    background-color: rgb(20, 19, 19);
+    /* background: url( 'https://cdn.discordapp.com/attachments/1032294349926567967/1032295593290256414/pexels-helia-ghaharian-9962880.jpg' ) no-repeat center top;  */
+}
+
+#logo{
+    width: 70px;
+    height: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#nomProject{
+    color: #6d615c;
+    font-size:46px; 
+}
+#navbar{
+    height: 20%;
+    
+}
+/*ao am list.js */
+#ligne{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+.ligne{
+    text-align: center ! important;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+#mgList{
+    width: 150vh;
+    height: 50vh;
+}
+/* eto n farany */
+
+
+#fotera{
+    background-color: rgba(37, 35, 35, 0.46);
+    width: 100%;
+}
+
+#navbarCollapse3{
+        width: 100%; 
+        background-color: rgba(76, 73, 73, 0.312);
+        z-index:1;
+}
+
+#liste{
+    margin-right: 50px !important;
+    font-weight: bolder;
+}
+
+#liste:hover {
+    background-color: rgb(246, 76, 76);
+    margin-left:40px;
+    cursor: grab;
+    font-weight: bolder;
+  }
+  
+  #rejoin{
+    background-color: #f3671f;
+    border-radius: 30px;
+    border: 4px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    width: 300px;
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 30px;
+  }
+#rejoin:hover{
+    background-color: #ffffffdd;
+    box-shadow: 0px 5px 5px 5px rgb(245, 82, 82);
+    color: #f64d4ddc;
+}
+
+#lien{
+    text-decoration: none;
+}
+
+#droit{ 
+    border-left: solid  #ffffffdd;
+    padding: 15px;
+    color: #ffffff;
+    background-color: #000000e2;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10%;
+}
+#ligne{
+    border-bottom:1px solid rgb(255, 255, 255);
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+#search{
+    margin-left: 25%;
+    color: #ffffff;
+}
+
+#bouton{
+    background-color: rgb(235, 123, 63) !important; 
+}
+
+#suivre{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    
+}
+
+#voirplus{
+    background-color: #f3671f;
+    border-radius: 20px;
+    border: 4px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    width: 200px;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 32%;
+    height: 70px;
+}
+
+#voirplus:hover{
+    background-color: #ffffffdd;
+    box-shadow: 0px 5px 5px 5px rgb(245, 82, 82);
+    color: #f64d4ddc;
+}
+
+#soucontenu{
+    color: #ffffff;
+}
+
+.gauche{
+    text-align: center;
+    margin: 20px;
+   
+}
+#titregauche{
+    color: #ffffffdd;
+    margin: 20px;
+}
+#imagegrand{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#imagemoyenne{
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+#imagepetit{
+    margin-top: 5px;
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+#textgauche{
+    margin-top: 40px;
+    font-weight: bolder;
+    color: #ffffffdd;
+    font-style: italic;
+}
+
+#test{
+    text-decoration: none;
+    margin-top:50px;
+    background-color: #f3671f;
+    border-radius: 5px;
+    padding: 15px;
+    color: aliceblue;
+    font-size: medium;
+
+}
+
+#affichplus{
+    margin-top: 50px;
+    font-style: oblique;
+}
+#test:hover{
+    box-shadow: 0px 5px 5px 5px #e99c75;
+}
+
+
+.demo-content{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+  }
+
+
+#imageacueil{
+   width:100%;
+   /* background: url( '' ) no-repeat center top;  */
+} 
+
+#idees{
+    font-size: 50px;
+    color: #ffffff;
+    font-style: italic;
+    font-weight: bold;
+}
+#idee{
+    font-size: 20px;
+    color: #ffffff;
+    font-style: italic;
+    font-weight: bold; 
+}
+
+#botton {
+    display: inline-block;
+    background-color: #f3671f;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  #botton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  #botton span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  #botton:hover {
+    background-color: #f56e6ee9;
+  }
+  #botton:hover span {
+    padding-right: 25px;
+  }
+  #botton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+#grandimageacueil{
+   margin-top: -70px;
+
+}
+
+#ide{
+    z-index: 1;
+    /* margin-top: -100px; */
+    margin-top: -600px;
+}
+#spanaccueil{
+    font-size: 15px;
+    color: #cccccc;
+    font-weight: bold;
+}
+
+
+#h1coroussel{
+    animation-duration: 10s;
+    animation-name: slidein;
+    margin-top: 70px;
+    color: #f68f3f;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  }
+
+  
+@keyframes slidein {
+    from {
+      margin-left: 80%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+#imageoffre{
+    width: 90%;
+    height: 90%;
+    border-radius: 5px;
+}
+
+#rowgauche{
+    background-color: #946e6e;
+    padding-top: 10px;
+    border-radius: 2px;
+
+}
+
+
+#droitOffre{
+    margin-top: 10%;
+    border-left: solid  #ffffffdd;
+    padding: 15px;
+    color: #ffffff;
+    background-color: #000000e2;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#form{
+    width: 70%;
+    height: 100% ;
+    background-color: #ca864cb7;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-left: 20%;
+    color: #ffffff;
+}
+
+#boutonMessage{
+    color: #f3671f;
+    background-color: #ffffff !important;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+#imageapropos{
+    border-radius: 70%;
+    height:  100%;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    margin-top: 10px;
+}
